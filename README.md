@@ -1,4 +1,4 @@
-![Limonad](https://github.com/WichardRiezebos/limonad/raw/master/limonad_banner.png)
+![Limonad](https://github.com/WichardRiezebos/limonad/raw/master/limonad_banner_big.png)
 
 # Limonad
 Set of majestic monad and monoid functions wrapped into a strongly-typed jacket to perform state of the art functional programming with a OOP twist.
