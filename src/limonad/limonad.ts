@@ -11,7 +11,7 @@ export class Limonad {
         return new Just<T>(value);
     }
 
-    static maby<T>(value: T): Schematics<T> {
+    static maybe<T>(value: T): Schematics<T> {
         return this.isNothing(value) ? this.nothing<T>() : this.just<T>(value);
     }
 
@@ -20,6 +20,6 @@ export class Limonad {
     }
 
     protected static isNothing(a) {
-        return a == null || a == undefined;
+        return a === null || a === undefined;
     }
 }
