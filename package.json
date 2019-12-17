@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "ts-node-dev src/bootstrap.ts"
+    "serve": "ts-node-dev src/bootstrap.ts",
+    "prepublish": "tsc",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
