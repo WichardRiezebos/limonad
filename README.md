@@ -3,6 +3,12 @@
 # Limonad
 Set of majestic monad and monoid functions wrapped into a strongly-typed jacket to perform state of the art functional programming with a OOP twist.
 
+### Using the module
+
+```
+import { Limonad } from 'limonad';
+```
+
 ### Example code
 
 With limonads:

@@ -1,7 +1,23 @@
 {
   "name": "limonad",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.1.0",
+  "keywords": [
+    "limonad",
+    "monad",
+    "monoid",
+    "node",
+    "functons"
+  ],
+  "description": "Set of majestic monad and monoid functions wrapped into a strongly-typed jacket to perform state of the art functional programming with a OOP twist.",
+  "homepage": "https://github.com/WichardRiezebos/limonad",
+  "bugs": {
+    "url": "https://github.com/WichardRiezebos/limonad/issues",
+    "email": "wichardriezebos@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WichardRiezebos/limonad.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,7 +33,5 @@
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript": "^3.6.3"
   },
-  "dependencies": {
-    "purify-ts": "^0.13.2"
-  }
+  "dependencies": {}
 }
